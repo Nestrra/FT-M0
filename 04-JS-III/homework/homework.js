@@ -31,7 +31,7 @@ function obtenerLargoDelArray(array) {
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
-  // Aumenta cada entero por 1
+  //  
   // y devuelve el array
   // Tu código:
 
@@ -321,18 +321,18 @@ function continueStatement(numero) {
   // Tu código:
 
 
-  let arraN = [];
-  let sum = numero;
+  var array = [];
+  var suma = numero;
 
-  for(let i = 0; i<10; i++){
+  for(var i = 0; i<10; i++){
 
-    if(i === 5 ){
+    if(i === 5){
       continue
     }else
-    sum = sum +2;
-    arraN.push(sum);    
+      suma = suma +2;
+      array.push(suma);
   }
-return arraN;
+return array;
 
 }
 
